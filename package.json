@@ -1,0 +1,16 @@
+{
+  "name": "voz-node",
+  "version": "1.0.0",
+  "description": "Realizar uma ligação de voz através do nodejs",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js localhost 8080"
+  },
+  "dependencies": {
+    "totalvoice-node": "1.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
