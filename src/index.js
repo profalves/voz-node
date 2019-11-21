@@ -1,5 +1,5 @@
 const TotalVoice = require("totalvoice-node");
-const client = new TotalVoice("858449d0abc705f56a54cf93a6659476");
+const client = new TotalVoice(process.env.KEY);
 
 (function() {
   const message = "Você realizou uma ligação através do nodejs com sucesso!";
